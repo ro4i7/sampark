@@ -35,7 +35,7 @@ const useStyles = createStyles((theme, _params, getRef) => {
       padding: `${theme.spacing.xs}px ${theme.spacing.sm}px`,
       borderRadius: theme.radius.sm,
       fontWeight: 500,
-      backgroundColor: 'transparent', // Make the link background transparent
+      backgroundColor: 'transparent',
       '&:hover': {
         backgroundColor: 'rgba(0, 0, 0, 0.1)'
           theme.colorScheme === 'dark'
